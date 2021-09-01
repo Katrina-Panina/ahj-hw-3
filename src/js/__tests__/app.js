@@ -1,4 +1,5 @@
 import Game from '../Game';
+
 const app = new Game(document.createElement('div'), 4);
 jest.useFakeTimers();
 test('Метод start вызывает setInterval', () => {
